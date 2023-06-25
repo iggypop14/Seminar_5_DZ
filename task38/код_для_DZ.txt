@@ -1,0 +1,3 @@
+Random rand = new Random();
+double number = Math.Round(rand.Next(0,10) + rand.NextDouble(), 3);
+System.Console.WriteLine(number);
